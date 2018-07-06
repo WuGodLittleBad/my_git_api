@@ -9,5 +9,5 @@
 
 git add .
 git commit -m "$1"
-git remote add git@github.com:WuGodLittleBad/$0.git
+git remote add origin git@github.com:WuGodLittleBad/$0.git
 git push -u origin master
