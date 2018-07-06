@@ -8,7 +8,7 @@
 URL=git@github.com:WuGodLittleBad/$1.git
 
 git add .
-git commit -m "$*"
+git commit -m "$2"
 echo "file will be commited to ${URL}"
 
 git remote add origin ${URL}
