@@ -9,7 +9,7 @@ URL=git@github.com:WuGodLittleBad/$1.git
 
 git add .
 git commit -m "$2"
-echo "$(URL)"
+echo "${URL}"
 
-git remote add origin $(URL)
+git remote add origin ${URL}
 git push -u origin master
