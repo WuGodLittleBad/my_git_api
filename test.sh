@@ -1,13 +1,11 @@
 #########################################################################
-# File Name: update.sh
+# File Name: test.sh
 # Author: wushenxiaohuai
 # mail: 74166738@qq.com
-# Created Time: Fri 06 Jul 2018 10:07:39 PM DST
+# Created Time: Fri 06 Jul 2018 10:26:42 PM DST
 #########################################################################
 #!/bin/bash
-
-
-git add .
-git commit -m "$2"
-git remote add origin git@github.com:WuGodLittleBad/"$1".git
-git push -u origin master
+for arg in "$*":
+do
+	echo ${arg}
+done
