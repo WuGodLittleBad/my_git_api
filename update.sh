@@ -8,6 +8,6 @@
 
 
 git add .
-git commit -m "$1"
-git remote add origin git@github.com:WuGodLittleBad/$0.git
+git commit -m "$2"
+git remote add origin git@github.com:WuGodLittleBad/$1.git
 git push -u origin master
