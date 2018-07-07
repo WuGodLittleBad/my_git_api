@@ -11,6 +11,6 @@ mkdir $1
 cd $1
 git init
 echo "newproject $1 added by my git api" > readme.txt
-curl -u WuGodLittleBad https://api.github.com/user/repos -d '{"name":"$1t"}'
+curl -u WuGodLittleBad https://api.github.com/user/repos -d \'{"name":"$1"}\'
 git remote add origin ${URL}
 cp ../my_git_api/update.sh ./update.sh
